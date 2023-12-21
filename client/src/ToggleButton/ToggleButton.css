@@ -1,0 +1,24 @@
+.toggle-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .toggle-button:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+  
+  /* Accessibility for screen readers */
+  .toggle-button:focus {
+    outline: 2px solid #3e8e41; /* Visible focus outline */
+  }
+  
+  .toggle-button:focus-visible {
+    outline-offset: 2px; /* Adjust outline position for clarity */
+  }

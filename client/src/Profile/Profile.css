@@ -1,0 +1,79 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.4); /* Semi-transparent white backdrop */
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Thin white border */
+  }
+  
+  .profile-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8); /* Darker text for contrast */
+  }
+  
+  .error-message {
+    color: red; /* Error message in red */
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .profile-details {
+    margin-bottom: 20px;
+  }
+  
+  .logout-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #d32f2f; /* Red background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .logout-button:hover {
+    background-color: #b92c2c; /* Darker red on hover */
+  }
+  
+  /* Form elements styles */
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select {
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Light gray border */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.05); /* Inner shadow for depth */
+    color: rgba(0, 0, 0, 0.8); /* Darker text for contrast */
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
